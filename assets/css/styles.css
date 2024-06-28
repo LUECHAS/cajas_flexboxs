@@ -10,7 +10,7 @@ html {
 }
 
 :root {
-  --gris: #666666;
+  --gris:  #CCCCCC;
 }
 
 body {
@@ -22,32 +22,47 @@ body {
   width: 100%;
   height: 5rem;
   background-color: var(--gris);
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
-.main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+ .center {
+  max-width: 840px;
+  margin: auto;
+  
 
-.box-center {
-  width: 70%;
-  height: 50vh;
-  background-color: black;
+} 
+
+.slider {
+  width: 100%;
+  height: 40rem;
+  background-color: var(--gris);
   margin-bottom: 10rem;
+  
 }
 
-.boxs {
-  width: 70%;
+.card1 {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 10rem;
-  gap: 2rem;
+
+  
 }
 
-.boxs > div {
+.card1 > div {
   height: 15rem;
-  width: calc(25% - 2rem);
-  background-color: burlywood;
+  width: 23.125%;
+  background-color: var(--gris);
 }
+
+/*
+max widht: 800px
+margin-right: 2rem
+
+medidas estandar para crear cards
+en dispositivos movil a partir de 375px los cards se veran al 100% del ancho
+en un dispositivo movil de 640px medida de taitwind se puede ver de uno a dos cards, si son dos card se dividen en el 50% cada uno   
+en tablets de 768px entre 3 o 4 cards dependiendo el diseño. si obtienes 3 cards el ancho es de 33.33%
+en pcs de 1024px el ingreso minimo es de 4 cards se dividen en 25% cada card
+estas medidas son estandar y van a depender del ancho del padre(card1) y a su vez el ancho del padre(center) toma el ancho del padre  
+*/
