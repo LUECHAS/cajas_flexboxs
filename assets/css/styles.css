@@ -55,6 +55,37 @@ body {
   background-color: var(--gris);
 }
 
+.card2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+
+  
+}
+
+.card2 > div {
+  height: 15rem;
+  width: 23.125%;
+  background-color: var(--gris);
+}
+
+.circles {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+
+  
+}
+
+.circles > div {
+  height: 15rem;
+  width: 23.125%;
+  background-color: var(--gris);
+  border-radius: 50%;
+}
+
 /*
 max widht: 800px
 margin-right: 2rem
