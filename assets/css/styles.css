@@ -73,7 +73,7 @@ body {
 .circles {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 10rem;
 
   
@@ -81,9 +81,48 @@ body {
 
 .circles > div {
   height: 15rem;
-  width: 23.125%;
+  width: 15rem;
   background-color: var(--gris);
   border-radius: 50%;
+}
+.card4 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+
+  
+}
+
+.card4 > div {
+  height: 15rem;
+  width: 23.125%;
+  background-color: var(--gris);
+}
+
+
+
+.card5 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+  gap: 2rem;
+  
+}
+
+.card5 div:first-child {
+  height: 20rem;
+  width: 50%;
+  background-color: var(--gris);
+}
+
+.card5 div:last-child {
+  height: 20rem;
+  width: 50%;
+  background-color: var(--gris);
+  
+  
 }
 
 /*
